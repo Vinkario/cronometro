@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
   .buttons {
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 500px;
+  width: 300px;
   margin: 50px auto;
   padding: 20px;
   border-radius: 10px;
@@ -89,9 +89,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 400PX;
   height: 100px;
   padding: 10px;
-  font-size: 80px;
+  font-size: 50px;
   font-family: minhaFonte;
   letter-spacing: 10px;
   background-color: black;
