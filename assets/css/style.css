@@ -17,9 +17,17 @@
 
 @media screen and (max-width: 480px) {
   .buttons {
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    gap: 20px;
   }
-}
+
+  }
+
+
+
+
 
 @font-face {
   font-family: minhaFonte ,fontesecundaria;
@@ -40,7 +48,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 640px;
+  width: 500px;
   margin: 50px auto;
   padding: 20px;
   border-radius: 10px;
