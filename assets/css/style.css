@@ -9,6 +9,18 @@
   outline: 0;
 }
 
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .buttons {
+    flex-direction: column;
+  }
+}
+
 @font-face {
   font-family: minhaFonte ,fontesecundaria;
   src: url('../icons/DS-DIGII.TTF'), url('../icons/Origin.otf');
