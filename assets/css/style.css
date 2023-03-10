@@ -24,19 +24,6 @@
     gap: 20px;
   }
 
-  .relogio {
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 10px;
-    width: 200px;
-    font-size: 20px;
-  }
-
-  .relogio span {
-    font-size: 30px;
-  }
 
 }
 
@@ -102,7 +89,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  width: 300px;
   font-size: 50px;
   font-family: minhaFonte;
   letter-spacing: 10px;
@@ -113,7 +100,7 @@ body {
 
 }
 
-.relogio span {
+.relogio p {
   color: #fff;
 }
 
