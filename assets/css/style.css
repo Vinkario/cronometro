@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
 :root {
   --primary-color: rgb(17, 86, 102);
   --primary-color-darker: rgb(9, 48, 56);
@@ -15,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 400px) {
   .buttons {
     justify-content: center;
     align-items: center;
@@ -23,14 +24,26 @@
     gap: 20px;
   }
 
+  .relogio {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    font-size: 20px;
   }
 
+  .relogio span {
+    font-size: 30px;
+  }
 
+}
 
 
 
 @font-face {
-  font-family: minhaFonte ,fontesecundaria;
+  font-family: minhaFonte, fontesecundaria;
   src: url('../icons/DS-DIGII.TTF'), url('../icons/Origin.otf');
 }
 
@@ -54,30 +67,30 @@ body {
   border-radius: 10px;
 }
 
-.container h1{
+.container h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 20px;
+  letter-spacing: 10px;
   color: #fff;
-  
+
 }
 
-.iniciar{
+.iniciar {
   text-align: center;
   width: 80px;
   height: 80px;
   border-radius: 100px;
 }
 
-.pausar{
-    text-align: center;
-    width: 80px;
-    height: 80px;
-    border-radius: 100px;
-  
+.pausar {
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+
 }
 
-.zerar{
+.zerar {
   text-align: center;
   width: 80px;
   height: 80px;
@@ -85,13 +98,11 @@ body {
 }
 
 
-.relogio{
+.relogio {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 400PX;
-  height: 100px;
-  padding: 10px;
+  padding: 20px;
   font-size: 50px;
   font-family: minhaFonte;
   letter-spacing: 10px;
@@ -99,51 +110,49 @@ body {
   border-radius: 10px;
   margin-bottom: 20px;
 
-  
+
 }
 
-.relogio p{
+.relogio span {
   color: #fff;
 }
 
-.buttons{
+.buttons {
   display: flex;
   width: 300px;
   justify-content: space-between;
 }
 
-.buttons button{
+.buttons button {
   border: none;
   font-family: minhaFonte;
   font-size: 20px;
 }
 
-.iniciar{
+.iniciar {
   background-color: #360564;
   color: #fff;
 }
 
-.iniciar:hover{
+.iniciar:hover {
   background-color: #0f021b;
   transition: all 300ms ease-in-out;
 }
 
-.pausar{
+.pausar {
   background-color: red;
   color: #fff;
 }
 
-.pausar:hover{
+.pausar:hover {
   background-color: rgb(122, 5, 5);
 }
 
-.zerar{
+.zerar {
   background-color: #055037;
   color: #fff;
 }
 
-.zerar:hover{
+.zerar:hover {
   background-color: #052b1e;
 }
-
-
